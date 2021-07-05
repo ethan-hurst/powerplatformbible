@@ -1,4 +1,4 @@
 ---
 template: BlogIndex
-title: Power Automate
+title: Power Automate Flow
 ---
