@@ -1,4 +1,4 @@
 ---
 template: BlogIndex
-title: Development Configuration
+title: Development Environment Configuration
 ---
