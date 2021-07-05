@@ -1,4 +1,4 @@
 ---
 template: BlogIndex
-title: Certification
+title: Certification Resources
 ---
