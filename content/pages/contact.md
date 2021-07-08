@@ -15,4 +15,4 @@ meta:
   description: ""
   title: Contact Page
 ---
-# TBD
+Have something that you want an article written on? Need help on your personal learning? Or want to see if I'm available for an engagement, fill out the form on this page and I will endeavour to get back to you. 
