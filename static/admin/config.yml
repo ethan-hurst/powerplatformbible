@@ -47,6 +47,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Address, name: address, widget: text }
           - { label: Phone, name: phone, widget: string, required: false }
           - { label: Email Address, name: email, widget: string, required: false}
+          - { label: Linkedin, name: linkedin, widget: string, required: false }
           - name: locations
             label: locations
             widget: list
