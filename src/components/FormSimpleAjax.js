@@ -94,27 +94,6 @@ class Form extends React.Component {
               <span>Lastname</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
