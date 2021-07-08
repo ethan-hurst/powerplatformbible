@@ -88,7 +88,7 @@ export class Navigation extends Component {
             tabIndex = { 0 }
             aria - label = "Navigation"
             role = "button" >
-            Blog <
+            Guides <
             div className = "Nav--GroupLinks" >
             <
             NavLink to = "/blog/"
