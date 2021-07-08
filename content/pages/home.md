@@ -6,7 +6,7 @@ featuredImage:
 subtitle: " Welcome to The Power Platform Bible"
 accordion: []
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: 
+  title: The Ultimate Power Platform Guide
 ---
 The Power Platform Bible is designed to be a one stop shop for how-to's and training on the Power Platform
