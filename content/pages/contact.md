@@ -7,6 +7,7 @@ subtitle: Get in touch
 address: Brisbane, Australia
 phone: ""
 email: ""
+linkedin: ""
 locations:
   - mapLink: ""
     lat: "27.4705"
