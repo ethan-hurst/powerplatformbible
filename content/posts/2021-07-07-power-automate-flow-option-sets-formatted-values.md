@@ -6,11 +6,21 @@ date: 2021-07-08
 excerpt: Testing for null strings
 categories:
   - category: Power Automate Flow
+meta:
+  title: Working with option set labels Microsoft Power Automate Flow Dataverse
 ---
-I had this scenario where I needed to test if a string contained data otherwise I wanted to replace the value. Below is my sample code
+I had this scenario where I needed to access the label of option sets. Previously in the old CDS connector, we were able to simply append something like this `_label` to our field and voila! With the newest flavour of Dataverse connectors, we now need to change our approach.
 
-```
-if(empty(outputs('Get_the_related_Opportunity')?['body/xpectedcommencementdate']),'Not Available',outputs('Get_the_related_Opportunity')?['body/expectedcommencementdate'])
-```
+We have this flow below. 
 
-What we're doing here is saying, if the output from Get_the_related_Opportunity is empty, replace the string with 'Not Available' otherwise use the value contained in the string
+![Power Automate Flow](https://ucarecdn.com/79910bb6-8d74-4011-96d9-35b3920e891a/)
+
+In order to best get at those option set labels, I ended up using this
+
+```outputs('Get_the_related_Opportunity')?['body/expectedcommencementdate@OData.Community.Display.V1.FormattedValue```
+
+Thats basically it. You may want to include some null checks too, something like this will work. 
+
+```if(empty(outputs('Get_the_related_Opportunity')?\['body/expectedcommencementdate']),'Not Available',outputs('Get_the_related_Opportunity')?\['body/expectedcommencementdate'])```
+
+What we're doing here is saying, if the output from Get_the_related_Opportunity is empty, replace the string with 'Not Available' otherwise use the value contained in the string. You of course could replace the 'Not Available' string with anything you like really. 
