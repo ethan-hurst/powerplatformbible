@@ -1,3 +1,4 @@
+publish_mode: editorial_workflow
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
   name: git-gateway
