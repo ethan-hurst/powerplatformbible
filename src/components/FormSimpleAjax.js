@@ -114,9 +114,10 @@ class Form extends React.Component {
               <option disabled hidden>
                 Type of Enquiry
               </option>
-              <option>Need to know more</option>
+              <option disabled>Please select</option>
+              <option>Could you help?</option>
               <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Business Enquiry</option>
             </select>
           </label>
           <label className="Form--Label">
