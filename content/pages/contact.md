@@ -7,7 +7,7 @@ subtitle: Get in touch
 address: Brisbane, Australia
 phone: ""
 email: ""
-linkedin: ""
+linkedin: https://www.linkedin.com/in/ethanhurst/
 locations:
   - mapLink: ""
     lat: "27.4705"
