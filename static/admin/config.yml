@@ -284,7 +284,7 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     folder: content/posts
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
@@ -293,8 +293,8 @@ collections: # A list of collections the CMS should be able to edit
         name: 'status'
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
-        default: 'Published'
-      - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
+        default: 'Draft'
+      - { label: Date / Order, name: date, widget: date, format: 'DD-MM-YYYY' }
       - {
           label: Featured Image,
           name: featuredImage,
