@@ -2,7 +2,7 @@
 template: SinglePost
 title: Downloading the SDK
 status: Draft
-date: 09-07-2021
+date: 2021-07-09
 featuredImage: https://ucarecdn.com/3633571e-9b8a-4589-9abf-ca428198411f/
 excerpt: How to best install the SDK locally on your development machine
 categories:
