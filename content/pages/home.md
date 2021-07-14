@@ -1,6 +1,6 @@
 ---
 template: HomePage
-slug: home
+slug: ""
 title: ""
 featuredImage: https://ucarecdn.com/03941d04-6eff-40e0-8e6a-737db4d6d555/
 subtitle: ""
