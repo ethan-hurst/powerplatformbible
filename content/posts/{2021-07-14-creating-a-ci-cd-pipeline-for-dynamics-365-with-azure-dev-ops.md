@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Build a DI/CD Pipeline for Dynamics 365 (Part 1 Azure App Registration)
+title: Dynamics 365 CI/CD Pipeline (Part 1 Azure App Registration)
 status: Draft
 date: 2021-07-14
 excerpt: TBC
