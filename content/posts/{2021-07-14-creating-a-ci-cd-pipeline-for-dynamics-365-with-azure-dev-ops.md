@@ -7,6 +7,7 @@ excerpt: ""
 categories:
   - category: Dynamics 365 (CRM)
   - category: Azure Dev Ops
+  - category: Dynamics 365 CI/CD Pipeline
 ---
 ## Intro
 
