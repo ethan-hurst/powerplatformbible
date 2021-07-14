@@ -8,6 +8,11 @@ categories:
   - category: Dynamics 365 (CRM)
   - category: Azure Dev Ops
   - category: Dynamics 365 CI/CD Pipeline
+meta:
+  title: Dynamics ALM CI/CD Pipeline
+  noindex: false
+  description: Here we go over how you can create your own Dynamics 365 CI/CD and
+    start practicing some application lifecycle management
 ---
 ## Intro
 
