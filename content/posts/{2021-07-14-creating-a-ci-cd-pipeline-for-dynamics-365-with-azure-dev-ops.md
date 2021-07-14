@@ -36,7 +36,7 @@ As you can see from the above image. We now have an Application ID. Take that GU
 
 ![](https://ucarecdn.com/aa012ad5-804b-42da-9c7b-5148f219d6e1/)
 
-##### Please Note 
+##### Please Note
 
 You may need to change your form from the User form (Default) to the Application User form as shown below. 
 
@@ -44,6 +44,12 @@ You may need to change your form from the User form (Default) to the Application
 
 With all of that done, we can now paste in our Application ID GUID from our PowerShell window and hit save. This will go ahead and bring some information in from Azure, which is desired and confirms that everything has been linked correctly. 
 
-##### Other Resources 
+Lastly. **Do not forget** to give this application user a security role! I normally give them system administrator, if you do not, the whole process will fail.
 
-[This](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools#configure-service-connections-using-a-service-principal) MS Doc was invaluable for me when I was creating my own pipeline and this article series.
+
+
+## Wrap Up
+
+We have covered off creation of an App Registration in Azure, as well as the needed Application User in Dynamics 365. 
+
+What we will be tackling in the next part is configuring our Azure Dev Ops Project Repository to use this application user when building the solution.
