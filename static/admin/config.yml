@@ -149,7 +149,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: ComponentsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, default: 'components' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -206,8 +206,8 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
-          - { label: Title, name: title, widget: string }
+          - { label: Slug, name: slug,  default: '' }
+          - { label: Title, name: title, widget: string, required: false }
           - { label: Featured Image, name: featuredImage, widget: image, required: false }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Body, name: body, widget: markdown }
