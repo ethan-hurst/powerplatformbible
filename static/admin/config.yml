@@ -110,10 +110,10 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: BlogIndex,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
-          - { label: Title, name: title, widget: string }
+          - { label: Slug, name: slug, default: 'blog' }
+          - { label: Title, name: title, widget: string, required: false }
           - { label: Featured Image, name: featuredImage, widget: image, required: false }
-          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - label: 'Meta'
             required: false
             name: 'meta'
