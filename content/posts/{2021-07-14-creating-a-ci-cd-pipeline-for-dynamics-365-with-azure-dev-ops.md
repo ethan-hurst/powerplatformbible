@@ -42,6 +42,8 @@ You may need to change your form from the User form (Default) to the Application
 
 ![](https://ucarecdn.com/8510971b-6458-453e-bd8a-2a6f45a077fe/)
 
+With all of that done, we can now paste in our Application ID GUID from our PowerShell window and hit save. This will go ahead and bring some information in from Azure, which is desired and confirms that everything has been linked correctly. 
+
 ##### Other Resources 
 
 [This](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools#configure-service-connections-using-a-service-principal) MS Doc was invaluable for me when I was creating my own pipeline and this article series.
