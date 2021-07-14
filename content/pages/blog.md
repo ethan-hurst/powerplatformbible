@@ -1,9 +1,9 @@
 ---
 template: BlogIndex
-slug: blog
-title: Guides
-featuredImage: ""
-subtitle: Here are all of our curated guides broken out by their respective categories
+slug: guides
+title: ""
+featuredImage: https://ucarecdn.com/78d11e16-7c9f-468d-a36f-a3dec7bbb7d7/
+subtitle: ""
 meta:
   description: ""
   title: Guides
