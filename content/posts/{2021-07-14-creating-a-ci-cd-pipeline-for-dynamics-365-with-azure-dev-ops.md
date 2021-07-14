@@ -6,5 +6,6 @@ date: 2021-07-14
 excerpt: TBC
 categories:
   - category: Dynamics 365 (CRM)
+  - category: Azure Dev Ops
 ---
 TBC
