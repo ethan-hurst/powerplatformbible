@@ -1,4 +1,4 @@
 ---
 template: BlogIndex
-title: Azure Dev Ops Pipeline
+title: Dynamics 365 CI/CD Pipeline
 ---
