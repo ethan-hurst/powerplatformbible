@@ -19,3 +19,7 @@ What we will be covering in this post is how we create our App Registration in A
 
 
 ## Create an App Registration in Azure Active Directory
+
+Microsoft provides an applet that runs with PowerShell. 
+
+(Note, it is best to open this up with a window of PowerShell that has administrative privileges. If you need to install any NuGet packages then this will save multiple window creation)
