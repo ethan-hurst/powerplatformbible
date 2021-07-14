@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: The Power Platform Bible
-featuredImage: null
+featuredImage: https://ucarecdn.com/03941d04-6eff-40e0-8e6a-737db4d6d555/
 subtitle: " Welcome to The Power Platform Bible"
 accordion: []
 meta:
