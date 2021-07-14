@@ -32,7 +32,15 @@ You'll need to navigate to [this](https://docs.microsoft.com/en-us/power-platfor
 
 ![](https://ucarecdn.com/ce50bd9e-9842-4765-a2a6-64809b4fc748/)
 
+As you can see from the above image. We now have an Application ID. Take that GUID string and navigate to your target Dynamics environment. In the Advanced Settings area, we want to select Users. When you've navigated to the Users entity, please select the System Users view and hit New
 
+![](https://ucarecdn.com/aa012ad5-804b-42da-9c7b-5148f219d6e1/)
+
+##### Please Note 
+
+You may need to change your form from the User form (Default) to the Application User form as shown below. 
+
+![](https://ucarecdn.com/8510971b-6458-453e-bd8a-2a6f45a077fe/)
 
 ##### Other Resources 
 
