@@ -206,18 +206,18 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug,  default: '' }
+          - { label: Slug, name: slug,  default: '', required: false}
           - { label: Title, name: title, widget: string, required: false }
           - { label: Featured Image, name: featuredImage, widget: image, required: false }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Body, name: body, widget: markdown }
-          - label: 'Accordion'
-            name: 'accordion'
-            widget: 'list'
-            required: false
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: Content, name: content, widget: text }
+          # - label: 'Accordion'
+          #   name: 'accordion'
+          #   widget: 'list'
+          #   required: false
+          #   fields:
+          #     - { label: 'Title', name: 'title', widget: 'string' }
+          #     - { label: Content, name: content, widget: text }
           - label: 'Meta'
             required: false
             name: 'meta'
