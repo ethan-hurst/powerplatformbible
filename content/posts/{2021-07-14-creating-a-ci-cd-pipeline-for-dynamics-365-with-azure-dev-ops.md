@@ -22,10 +22,18 @@ Alright, I'll walk you through my standard fitout for a Dynamics Pipeline.
 
 What we will be covering in this post is how we create our App Registration in Azure Active Directory, that we need in order to create the Application User.
 
-
-
 ## Create an App Registration in Azure Active Directory
 
 Microsoft provides an applet that runs with PowerShell. 
 
 (Note, it is best to open this up with a window of PowerShell that has administrative privileges. If you need to install any NuGet packages then this will save multiple window creation)
+
+You'll need to navigate to [this](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools#configure-service-connections-using-a-service-principal) MS doc and download the PowerShell Applet. When you run this, it will take you through a series of login prompts and then create you an app registration, we're able to use. See below for an example. (Please note, this App Registration is now deleted and was generated for demonstration purposes only).
+
+![](https://ucarecdn.com/ce50bd9e-9842-4765-a2a6-64809b4fc748/)
+
+
+
+##### Other Resources 
+
+[This](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools#configure-service-connections-using-a-service-principal) MS Doc was invaluable for me when I was creating my own pipeline and this article series.
