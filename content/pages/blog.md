@@ -1,6 +1,6 @@
 ---
 template: BlogIndex
-slug: blog
+slug: guides
 title: ""
 featuredImage: https://ucarecdn.com/78d11e16-7c9f-468d-a36f-a3dec7bbb7d7/
 subtitle: ""
