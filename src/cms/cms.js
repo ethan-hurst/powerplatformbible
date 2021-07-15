@@ -32,9 +32,9 @@ CMS.registerPreviewTemplate('components-page', ({ entry }) => (
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
-  <DefaultPageTemplate {...entry.toJS().data} />
-))
+// CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
+//   <DefaultPageTemplate {...entry.toJS().data} />
+// ))
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
 ))
