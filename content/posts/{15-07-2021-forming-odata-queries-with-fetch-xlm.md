@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Forming OData Queries with Fetch XLM
+title: Forming OData Queries with Fetch XML
 status: Published
 date: 2021-15-07
 featuredImage: https://ucarecdn.com/e56445a9-ae21-4625-9d55-1167b182f8e1/
