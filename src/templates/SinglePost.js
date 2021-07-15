@@ -61,7 +61,6 @@ export const SinglePostTemplate = ({
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
-          <Comment />
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
