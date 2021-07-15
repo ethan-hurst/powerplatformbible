@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: My Standard Practice for Writing Entity JavaScript Forms
+title: My Take On Writing Entity JavaScript Forms
 status: Published
 date: 2021-07-08
 featuredImage: https://ucarecdn.com/bc48a150-0e5a-465c-94eb-d9f95f848616/
