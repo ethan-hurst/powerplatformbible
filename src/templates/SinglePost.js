@@ -84,6 +84,13 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </article>
+    <script src="https://utteranc.es/client.js"
+      repo="https://github.com/flamebeard/powerplatformbible"
+      issue-term="pathname"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
   </main>
 )
 
