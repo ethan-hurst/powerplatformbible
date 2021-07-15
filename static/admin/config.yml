@@ -1,5 +1,4 @@
 publish_mode: editorial_workflow
-logo_url: https://thepowerplatformbible.com/images/book.png
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
   name: git-gateway
