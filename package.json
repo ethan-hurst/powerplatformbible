@@ -58,7 +58,7 @@
         "serve": "gatsby serve",
         "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
         "local": "netlify dev",
-        "local-deploy": "netlify deploy --build --prodIfUnlocked"
+        "deploy": "netlify deploy --build --prodIfUnlocked"
     },
     "devDependencies": {
         "prettier": "^1.18.2",
