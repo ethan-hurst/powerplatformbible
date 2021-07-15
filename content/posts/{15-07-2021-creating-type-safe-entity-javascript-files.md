@@ -22,4 +22,4 @@ With all that said, lets dig into how!
 ## Reference Material
 
 * Scott's repo where he initially teaches this https://github.com/scottdurow/building-power-apps-js-webresources
-* Scott's video course on putting this all together
+* Scott's video course on putting this all together https://learn.develop1.net/courses/building-javascript-web-resources-using-typescript
