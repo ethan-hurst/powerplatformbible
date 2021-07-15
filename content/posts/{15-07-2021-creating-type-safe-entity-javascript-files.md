@@ -14,3 +14,5 @@ You might be saying to yourself? Why would I even care? I said it myself when I 
 2. You are **going** to save time developing, by avoiding type errors
 
 With all that said, lets dig into how!
+
+## High Level Design
