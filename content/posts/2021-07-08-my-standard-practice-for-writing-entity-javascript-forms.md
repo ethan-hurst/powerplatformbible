@@ -11,6 +11,8 @@ categories:
 ---
 This is a subject that could garner a lot of controversy, as with all things, there are different opinions for what constitutes best practice. So I'm going to preface this one by saying that this is what I've found to work the best for me in my experience consulting. 
 
+We have all no doubt seen some absolute shockers when it comes to how these have been laid out in the past, so here is my code neat freak take on it.
+
 Entity JavaScript. Love it or hate it, you're going to come across this in the power platform. So get cosy. 
 
 If the entity doesn't have an existing JavaScript file. This is how I'll go about creating the file.
