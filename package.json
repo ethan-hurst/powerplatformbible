@@ -57,8 +57,9 @@
         "clean": "gatsby clean",
         "serve": "gatsby serve",
         "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-        "local": "netlify dev",
-        "deploy": "netlify deploy --build --prodIfUnlocked"
+        "local": "yarn kill && netlify dev",
+        "deploy": "netlify deploy --build --prodIfUnlocked",
+        "kill": "npx rimraf C:Users/EthanHurst/.config/gatsby/sites/"
     },
     "devDependencies": {
         "prettier": "^1.18.2",

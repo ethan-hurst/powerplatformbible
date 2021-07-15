@@ -52,24 +52,16 @@ export const SinglePostTemplate = ({
               </Fragment>
             )}
           </div>
-
           {title && (
             <h1 className="SinglePost--Title" itemProp="title">
               {title}
             </h1>
           )}
-
+          <div></div>
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
-          <script src="https://utteranc.es/client.js"
-            repo="https://github.com/flamebeard/powerplatformbible.git"
-            issue-term="title"
-            label="Comment"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-          </script>
+          <Comment />
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
