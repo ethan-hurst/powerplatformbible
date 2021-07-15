@@ -15,3 +15,5 @@ As you're aware there is a massive demand for Dynamics and Power Platform Techni
 * Configuring your development environment
 * Power Automate Quick Hacks
 * Getting past common pitfalls when you're learning the Dataverse
+
+Head over to the guides area to start looking at the topics we're talking about! 
