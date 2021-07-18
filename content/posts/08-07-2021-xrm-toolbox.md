@@ -21,4 +21,7 @@ Navigate [here](https://www.xrmtoolbox.com/releases/) and grab the latest releas
 ## Some of my Favourite Tools
 
 * Fetch XML Builder
-*
+* Polymorphic Lookup Creator
+* Portal Code Editor
+* Custom API Tester
+* Custom API Manager
