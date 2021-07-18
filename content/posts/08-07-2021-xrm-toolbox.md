@@ -19,3 +19,6 @@ Navigate [here](https://www.xrmtoolbox.com/releases/) and grab the latest releas
 
 
 ## Some of my Favourite Tools
+
+* Fetch XML Builder
+*
