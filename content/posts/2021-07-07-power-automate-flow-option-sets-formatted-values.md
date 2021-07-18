@@ -7,6 +7,8 @@ featuredImage: https://ucarecdn.com/051dfab8-7ce0-47b5-9c18-79aa955c75ed/
 excerpt: Testing for null strings
 categories:
   - category: Power Automate Flow
+  - category: Azure Dev Ops
+  - category: Dynamics 365 CI/CD Pipeline
 meta:
   title: Working with option set labels Microsoft Power Automate Flow Dataverse
 ---
