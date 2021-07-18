@@ -23,6 +23,10 @@ This is effectively how it works
 
 ## My Implementation
 
+For a start I'll show you how I've got this built in Visual Studio. 
+
+![](https://ucarecdn.com/08ab0bc2-6b50-4d7b-9780-b6c7fdd5b70a/)
+
 ## Reference Material
 
 * Scott's repo where he initially teaches this https://github.com/scottdurow/building-power-apps-js-webresources
