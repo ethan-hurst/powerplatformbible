@@ -51,7 +51,7 @@
     "license": "MIT",
     "main": "n/a",
     "scripts": {
-        "start": "npm run clean && npm run develop",
+        "start": "yarn clean && yarn develop",
         "build": "gatsby build",
         "develop": "gatsby develop",
         "clean": "gatsby clean",
