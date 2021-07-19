@@ -27,9 +27,9 @@ For a start I'll show you how I've got this built in Visual Studio.
 
 ![](https://ucarecdn.com/08ab0bc2-6b50-4d7b-9780-b6c7fdd5b70a/)
 
-So as you can see we have two projects within our solution. One using the spkl task runner. The other doing our Entity script build
+So as you can see we have two projects within our solution. One using the spkl task runner. The other doing our Entity script build.
 
-
+This is how I'm playing with testing this out. The obvious caveat is that with a bundled files, that makes them very difficult to debug. Scott has figured out a neat little way to get around this using a program called Fiddler. 
 
 ## Reference Material
 
