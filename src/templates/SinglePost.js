@@ -60,7 +60,6 @@ export const SinglePostTemplate = ({
             </h1>
           )}
 
-
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
@@ -85,7 +84,6 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </article>
-
   </main>
 )
 
@@ -123,7 +121,7 @@ export const pageQuery = graphql`
       ...Meta
       html
       id
-      fields{
+      fields {
         slug
       }
       frontmatter {
