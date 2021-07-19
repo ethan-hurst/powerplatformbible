@@ -11,9 +11,9 @@ class GoogleMap extends Component {
   static defaultProps = {
     center: {
       lat: -27.468325219812517,
-      lng: 153.02690854524323
+      lng: 153.02690854524323,
     },
-    zoom: 14
+    zoom: 14,
   }
 
   render() {
@@ -25,7 +25,11 @@ class GoogleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <Marker lat={-27.468325219812517} lng={153.02690854524323} text={'Kreyser Avrora'} />
+          <Marker
+            lat={-27.468325219812517}
+            lng={153.02690854524323}
+            text={'Kreyser Avrora'}
+          />
         </GoogleMapReact>
       </div>
     )

@@ -10,7 +10,7 @@ export class Navigation extends Component {
   state = {
     active: false,
     activeSubNav: false,
-    currentPath: false
+    currentPath: false,
   }
 
   componentDidMount = () =>
@@ -29,7 +29,7 @@ export class Navigation extends Component {
 
   toggleSubNav = subNav =>
     this.setState({
-      activeSubNav: this.state.activeSubNav === subNav ? false : subNav
+      activeSubNav: this.state.activeSubNav === subNav ? false : subNav,
     })
   keyToggleSubNav = (e, subNav) => {
     // key o is for open so you can enter key to open
@@ -39,7 +39,6 @@ export class Navigation extends Component {
   }
   render() {
     const { active } = this.state,
-      { subNav } = this.props,
       NavLink = ({ to, className, children, ...props }) => (
         <Link
           to={to}

@@ -5,6 +5,8 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import Comments from '../components/Comments'
+
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
@@ -13,7 +15,7 @@ export const SinglePostTemplate = ({
   body,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
 }) => (
   <main>
     <article
@@ -57,7 +59,8 @@ export const SinglePostTemplate = ({
               {title}
             </h1>
           )}
-          <div></div>
+
+
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
@@ -82,6 +85,8 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </article>
+    {/* comments  */}
+    <Comments issueTerm={SinglePost} />
   </main>
 )
 
@@ -116,6 +121,9 @@ export const pageQuery = graphql`
       ...Meta
       html
       id
+      fields{
+        slug
+      }
       frontmatter {
         title
         template

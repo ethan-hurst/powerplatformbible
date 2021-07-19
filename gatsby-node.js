@@ -53,8 +53,8 @@ exports.createPages = ({ actions, graphql }) => {
           ),
           // additional data can be passed via context
           context: {
-            id
-          }
+            id,
+          },
         })
       })
     })
@@ -95,14 +95,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: 'slug',
-      value: slug
+      value: slug,
     })
 
     // Add contentType to node.fields
     createNodeField({
       node,
       name: 'contentType',
-      value: parsedFilePath.dir
+      value: parsedFilePath.dir,
     })
   }
 }
@@ -110,10 +110,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
   if (getConfig().mode === 'production') {
     actions.setWebpackConfig({
-      devtool: false
-    });
+      devtool: false,
+    })
   }
-};
+}
 
 // Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
 module.exports.resolvableExtensions = () => ['.json']

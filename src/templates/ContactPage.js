@@ -19,7 +19,7 @@ export const ContactPageTemplate = ({
   phone,
   email,
   locations,
-  linkedin
+  linkedin,
 }) => (
   <main className="Contact">
     <PageHeader
@@ -55,10 +55,10 @@ export const ContactPageTemplate = ({
               </a>
             )}
             {linkedin && (
-                <a className="Contact--Details--Item" href={`${linkedin}`}>
-                  <Linkedin /> Linkedin
-                </a>
-              )}
+              <a className="Contact--Details--Item" href={`${linkedin}`}>
+                <Linkedin /> Linkedin
+              </a>
+            )}
           </div>
         </div>
 
