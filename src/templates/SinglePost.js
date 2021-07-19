@@ -85,8 +85,7 @@ export const SinglePostTemplate = ({
         </div>
       </div>
     </article>
-    {/* comments  */}
-    <Comments issueTerm={SinglePost} />
+
   </main>
 )
 
@@ -105,6 +104,9 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
+
+      {/* comments  */}
+      <Comments issueTerm={post.fields.slug} />
     </Layout>
   )
 }

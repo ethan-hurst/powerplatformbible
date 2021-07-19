@@ -58,7 +58,7 @@
         "serve": "gatsby serve",
         "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
         "local": "yarn kill && netlify dev",
-        "deploy": "git pull && netlify deploy --build --prodIfUnlocked",
+        "deploy": "git pull && yarn format && netlify deploy --build --prodIfUnlocked",
         "kill": "npx rimraf C:Users/EthanHurst/.config/gatsby/sites/"
     },
     "devDependencies": {
