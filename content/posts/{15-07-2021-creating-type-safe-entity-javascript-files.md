@@ -37,5 +37,5 @@ This is how I'm playing with testing this out. The obvious caveat is that with a
 
 ## Reference Material
 
-* Scott's repo where he initially teaches this https://github.com/scottdurow/building-power-apps-js-webresources
-* Scott's video course on putting this all together https://learn.develop1.net/courses/building-javascript-web-resources-using-typescript
+* Scott's repo where he initially teaches [this](<* https://github.com/scottdurow/building-power-apps-js-webresources>)
+* Scott's [video course](<* https://learn.develop1.net/courses/building-javascript-web-resources-using-typescript>) on putting this all together
