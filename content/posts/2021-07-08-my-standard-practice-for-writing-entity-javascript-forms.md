@@ -1,6 +1,7 @@
 ---
 template: SinglePost
 title: My Take On Writing Entity JavaScript Forms
+slug: entity-js
 status: Published
 date: 2021-07-08
 featuredImage: https://ucarecdn.com/bc48a150-0e5a-465c-94eb-d9f95f848616/
