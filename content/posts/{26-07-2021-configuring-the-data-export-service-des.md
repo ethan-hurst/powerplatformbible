@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Configuring The Data Export Service (DES)
-slug: ""
+slug: des-config
 status: Draft
 date: 26-07-2021
 categories:
