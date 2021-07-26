@@ -38,6 +38,12 @@ This is how I'm playing with testing this out. The obvious caveat is that with a
 
 I'll refer you to Scott's tutorials for how you can configure Fiddler ;) 
 
+## TBC
+
+* benefits
+* how to register these event handlers per entity
+* fiddler config
+
 ## Reference Material
 
 * Scott's repo where he initially teaches [this](<* https://github.com/scottdurow/building-power-apps-js-webresources>)
