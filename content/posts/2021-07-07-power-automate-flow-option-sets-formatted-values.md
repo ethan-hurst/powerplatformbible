@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Power Automate Flow - Option Sets Formatted Values
-slug: 2021-07-07-power-automate-flow-option-sets-formatted-values
+slug: flow-format-option-sets
 status: Published
 date: 2021-07-08
 featuredImage: https://ucarecdn.com/051dfab8-7ce0-47b5-9c18-79aa955c75ed/
