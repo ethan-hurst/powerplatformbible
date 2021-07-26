@@ -36,6 +36,8 @@ So as you can see we have two projects within our solution. One using the spkl t
 
 This is how I'm playing with testing this out. The obvious caveat is that with a bundled files, that makes them very difficult to debug. Scott has figured out a neat little way to get around this using a program called Fiddler. 
 
+I'll refer you to Scott's tutorials for how you can configure Fiddler ;) 
+
 ## Reference Material
 
 * Scott's repo where he initially teaches [this](<* https://github.com/scottdurow/building-power-apps-js-webresources>)
