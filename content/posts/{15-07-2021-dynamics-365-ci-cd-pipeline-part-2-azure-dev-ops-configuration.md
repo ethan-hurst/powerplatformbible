@@ -13,6 +13,10 @@ categories:
 
 We left the last section having registered our Application User in Dynamics. Now we're ready to plug that into Azure Dev Ops as our means to connect and deploy to that environment.
 
-
-
 ## The Implementation
+
+Now that we have our application user, we want to copy this value to our clipboard
+
+![](https://ucarecdn.com/a839f880-95a4-4cbf-aeda-3d3c96afe1dd/)
+
+Heading back to our Azure Dev Ops project, we can begin building out our pipeline.
