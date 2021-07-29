@@ -8,11 +8,9 @@ categories:
   - category: Microsoft Azure
   - category: Dynamics 365 (CRM)
 ---
-TBC
+## Intro
 
-
-
-Run Sheet
+What we aim to cover off in this article is how you can configure the Data Export Service (DES) to copy data over to an Azure SQL database. A run sheet of what we will be doing is below.
 
 * Create Azure Resource Group
 * Create Azure SQL Server 
