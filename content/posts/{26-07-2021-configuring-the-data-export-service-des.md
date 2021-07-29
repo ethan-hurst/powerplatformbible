@@ -3,7 +3,7 @@ template: SinglePost
 title: Configuring The Data Export Service (DES) Part 1
 slug: des-config-pt1
 status: Published
-date: 26-07-2021
+date: 2021-07-29
 categories:
   - category: Microsoft Azure
   - category: Dynamics 365 (CRM)
