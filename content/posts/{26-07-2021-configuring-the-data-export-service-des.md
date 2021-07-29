@@ -45,9 +45,13 @@ You'll need a lowercase name for it, and also an administrator username and pass
 
 ![](https://ucarecdn.com/e3db3aed-23e2-41fc-aecc-c1e58ae2d20d/)
 
-Now we have a server to deploy our database into. Lets spin that up. 
+When that has completed its provisioning. Something you need to do after the fact is navigate to the resource, and click on the firewall settings 
 
+![](https://ucarecdn.com/29cb48bd-9142-4bae-9887-66870b65e94e/)
 
+and ensure that this switch is set to yes. Otherwise our database will not be able to get access to this server. 
+
+![](https://ucarecdn.com/b3011ee1-c262-4e1a-b055-140fc64b719d/)
 
 #### Create the Azure SQL Database
 
@@ -55,15 +59,49 @@ Feel free to configure your database how you like. I've had really good experien
 
 ![](https://ucarecdn.com/5a80ec5c-a959-42b4-b766-f96d5be82259/)
 
+
+
+#### Create the Azure Key Vault
+
+This part is crucial. It will be managing the connection string to the SQL Server for us, which the Data Export Service will use to securely get that plain-text string. 
+
+Your key vault settings should look something like this. 
+
+![](https://ucarecdn.com/3b9d724d-1b62-46a0-9f5c-b0578ad5efdb/)
+
+
+
+While that is provisioning, lets go get our connection string from our Azure SQL Database. 
+
+![](https://ucarecdn.com/73c98423-3c45-4115-b100-979cdf4d1854/)
+
+
+
+![](https://ucarecdn.com/a84214ae-d486-4fae-b66e-f8d9a299f749/)
+
+Now you're going to want to copy that out to a notepad and paste it. This string contains a variable that you will need to change. 
+
+![](https://ucarecdn.com/a81c8164-e07a-492a-84cc-1cfe9149305a/)
+
+So go ahead and replace the {your_password} with the Azure SQL Server Password that you set when you created the Azure SQL **Server.**
+
+
+
+![](https://ucarecdn.com/030ce960-9c63-4871-bfc1-5d97bf239cd6/)
+
+
+
+
+
 Okay. Lets have a look at our run sheet
 
 * Create Azure Resource Group ✅
 * Create Azure SQL Server ✅
 
-  * Ensure that other resources can access this 
+  * Ensure that other resources can access this ✅
 * Create Azure SQL DB ✅
-* Create Key Vault
-* Tag the secret OrgID : TenantID 
+* Create Key Vault ✅
+* Tag the secret OrgID : TenantID ✅
 * Add the DES App from App Source 
 * Configure the Entities you want to Migrate
 * Configure the Relationships you want to Migrate
