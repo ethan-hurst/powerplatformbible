@@ -3,7 +3,7 @@ template: SinglePost
 title: My Take On Writing Entity JavaScript Forms
 slug: entity-js
 status: Published
-date: 08-07-2021
+date: 2021-07-08
 featuredImage: https://ucarecdn.com/bc48a150-0e5a-465c-94eb-d9f95f848616/
 excerpt: Entity JavaScript. Love it or hate it, you're going to come across this
   in the power platform. So get cosy.

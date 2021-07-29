@@ -3,7 +3,7 @@ template: SinglePost
 title: Dynamics 365 CI/CD Pipeline (Part 1 Azure App Registration)
 slug: dyn-pipeline-pt1
 status: Featured
-date: 14-07-2021
+date: 2021-07-14
 featuredImage: https://ucarecdn.com/4939f5cd-ab14-4a72-85f0-9ba1b7451a99/
 excerpt: ""
 categories:

@@ -3,7 +3,7 @@ template: SinglePost
 title: Forming OData Queries with Fetch XML
 slug: format-odata
 status: Published
-date: 15-07-2021
+date: 2021-15-07
 featuredImage: https://ucarecdn.com/e56445a9-ae21-4625-9d55-1167b182f8e1/
 categories:
   - category: Power Automate Flow
