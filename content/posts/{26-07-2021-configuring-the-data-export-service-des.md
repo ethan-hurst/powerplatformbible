@@ -87,11 +87,27 @@ Now that we have a valid connection string, we're going to create our secret. Na
 
 ![](https://ucarecdn.com/030ce960-9c63-4871-bfc1-5d97bf239cd6/)
 
+and click on the Generate/Import button
 
+![](https://ucarecdn.com/0ada7271-298a-4038-b4a8-945f5d5aa1b8/)
 
+Paste in your string into the value field and give your secret a name then hit save. When that has provisioned, navigate into the secret. You'll need to now tag the secret with your orgId : tenantId. 
 
+We can find out our orgId by navigating to your Dynamics Environment. Navigating to **Advanced Settings** -> **Customisation** -> **Developer Resources** 
 
-#### Breather
+and you want to copy this field
+
+![](https://ucarecdn.com/cbcd4acb-c64c-4194-9b83-9e9b98e4f5c0/)
+
+Note that string down somewhere. You will need it. To get your tenantId, back in the Azure Portal. Navigate to Azure Active Directory then copy this value 
+
+![](https://ucarecdn.com/8a583e08-33f4-447f-ae5b-785790be074d/)
+
+Head back to the secret in our Azure Key Vault, we want to click on Tags and input your orgId and tenantId like this 
+
+![](https://ucarecdn.com/0be00c02-bd6a-46a1-a8ae-d2a2a253c693/)
+
+## Conclusion
 
 Alright that was a lot of configuration. Lets take a look at our run sheet and see where we're at. 
 
