@@ -81,7 +81,13 @@ Now you're going to want to copy that out to a notepad and paste it. This string
 
 So go ahead and replace the {your_password} with the Azure SQL Server Password that you set when you created the Azure SQL **Server.**
 
+
+
+Now that we have a valid connection string, we're going to create our secret. Navigate back to the key vault that we created and navigate to the Secrets area
+
 ![](https://ucarecdn.com/030ce960-9c63-4871-bfc1-5d97bf239cd6/)
+
+
 
 
 
