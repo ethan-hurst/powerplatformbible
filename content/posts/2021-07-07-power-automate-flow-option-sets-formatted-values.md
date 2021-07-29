@@ -3,7 +3,7 @@ template: SinglePost
 title: Power Automate Flow - Option Sets Formatted Values
 slug: flow-format-option-sets
 status: Published
-date: 2021-07-08
+date: 08-07-2021
 featuredImage: https://ucarecdn.com/051dfab8-7ce0-47b5-9c18-79aa955c75ed/
 excerpt: Testing for null strings
 categories:
