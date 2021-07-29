@@ -6,6 +6,7 @@ status: Draft
 date: 26-07-2021
 categories:
   - category: Microsoft Azure
+  - category: Dynamics 365 (CRM)
 ---
 TBC
 
