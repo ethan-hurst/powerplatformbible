@@ -2,7 +2,7 @@
 template: SinglePost
 title: Configuring The Data Export Service (DES) Part 1
 slug: des-config-pt1
-status: Draft
+status: Published
 date: 26-07-2021
 categories:
   - category: Microsoft Azure
