@@ -40,3 +40,30 @@ Lets move on.
 #### Create an SQL Server
 
 Now that we have a container to group everything that we're going to create, lets spin up an SQL Server to host our database.
+
+You'll need a lowercase name for it, and also an administrator username and password. Use your organisations password management strategy to maintain this. 
+
+![](https://ucarecdn.com/e3db3aed-23e2-41fc-aecc-c1e58ae2d20d/)
+
+Now we have a server to deploy our database into. Lets spin that up. 
+
+
+
+#### Create the Azure SQL Database
+
+Feel free to configure your database how you like. I've had really good experience with this configuration. It costs approximately $4/month too. 
+
+![](https://ucarecdn.com/5a80ec5c-a959-42b4-b766-f96d5be82259/)
+
+Okay. Lets have a look at our run sheet
+
+* Create Azure Resource Group ✅
+* Create Azure SQL Server ✅
+
+  * Ensure that other resources can access this 
+* Create Azure SQL DB ✅
+* Create Key Vault
+* Tag the secret OrgID : TenantID 
+* Add the DES App from App Source 
+* Configure the Entities you want to Migrate
+* Configure the Relationships you want to Migrate
