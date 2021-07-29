@@ -202,7 +202,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
         default: 'Draft'
-      - { label: Date / Order, name: date, widget: date, format: 'DD-MM-YYYY' }
+      - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
       - {
           label: Featured Image,
           name: featuredImage,
