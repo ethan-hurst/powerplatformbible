@@ -1,7 +1,7 @@
 ---
 template: SinglePost
-title: Configuring The Data Export Service (DES)
-slug: des-config
+title: Configuring The Data Export Service (DES) Part 1
+slug: des-config-pt1
 status: Draft
 date: 26-07-2021
 categories:
@@ -59,8 +59,6 @@ Feel free to configure your database how you like. I've had really good experien
 
 ![](https://ucarecdn.com/5a80ec5c-a959-42b4-b766-f96d5be82259/)
 
-
-
 #### Create the Azure Key Vault
 
 This part is crucial. It will be managing the connection string to the SQL Server for us, which the Data Export Service will use to securely get that plain-text string. 
@@ -69,31 +67,27 @@ Your key vault settings should look something like this.
 
 ![](https://ucarecdn.com/3b9d724d-1b62-46a0-9f5c-b0578ad5efdb/)
 
-
-
 While that is provisioning, lets go get our connection string from our Azure SQL Database. 
 
 ![](https://ucarecdn.com/73c98423-3c45-4115-b100-979cdf4d1854/)
 
+And copy this string
 
-
-![](https://ucarecdn.com/a84214ae-d486-4fae-b66e-f8d9a299f749/)
+![](https://ucarecdn.com/6e53dcfa-822c-4859-bf66-eca08edb3adf/)
 
 Now you're going to want to copy that out to a notepad and paste it. This string contains a variable that you will need to change. 
 
-![](https://ucarecdn.com/a81c8164-e07a-492a-84cc-1cfe9149305a/)
+![](https://ucarecdn.com/17aca57d-bc14-4987-a0fd-a0bb27da0ced/)
 
 So go ahead and replace the {your_password} with the Azure SQL Server Password that you set when you created the Azure SQL **Server.**
-
-
 
 ![](https://ucarecdn.com/030ce960-9c63-4871-bfc1-5d97bf239cd6/)
 
 
 
+#### Breather
 
-
-Okay. Lets have a look at our run sheet
+Alright that was a lot of configuration. Lets take a look at our run sheet and see where we're at. 
 
 * Create Azure Resource Group ✅
 * Create Azure SQL Server ✅
@@ -105,3 +99,7 @@ Okay. Lets have a look at our run sheet
 * Add the DES App from App Source 
 * Configure the Entities you want to Migrate
 * Configure the Relationships you want to Migrate
+
+
+
+This one has already gotten longer than I intended. So we're going to cover off the DES Application and configuration in Part two!
