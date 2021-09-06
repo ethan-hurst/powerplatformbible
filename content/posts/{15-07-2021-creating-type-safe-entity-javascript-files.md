@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Creating Type Safe Entity JavaScript Files
-slug: dyn-pipeline-pt2
+slug: dyn-typesafe-js
 status: Draft
 date: 15-07-2021
 categories:
