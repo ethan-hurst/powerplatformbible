@@ -1,5 +1,5 @@
 .Nav {
-  background: white;
+  background: rgba(245, 221, 144, 0.5);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -20,7 +20,7 @@
   flex-direction: row;
 }
 
-.Nav--Links > * + * {
+.Nav--Links>*+* {
   margin-left: 1rem;
 }
 
@@ -44,10 +44,8 @@
   border-bottom-color: transparent;
 }
 
-.NavLink:hover,
-.NavLink.active,
-.NavLink:focus {
-  color: var(--primary);
+.NavLink:hover, .NavLink.active, .NavLink:focus {
+  color: #052f5f;
   border-bottom-color: currentColor;
 }
 
@@ -107,7 +105,6 @@
   .Nav--Container {
     display: flex;
   }
-
   .Nav--MenuButton {
     display: block !important;
     margin-left: auto;
@@ -116,7 +113,6 @@
   .Nav .Logo {
     z-index: 1;
   }
-
   .Nav--Links {
     display: none;
     align-items: center;
@@ -130,26 +126,21 @@
     background: white;
     animation: Nav--Links 0.2s ease;
   }
-
-  .Nav--Links > * + * {
+  .Nav--Links>*+* {
     margin-left: 0;
     margin-top: 1rem;
   }
-
   .Nav-active .Nav--Links {
     display: flex;
   }
-
   .Nav-active .NavLink {
     animation: Nav--Link 0.3s ease-out;
     animation-fill-mode: both;
   }
-
   .Nav .NavLink {
     font-size: 2.5rem;
     font-weight: 300;
   }
-
   .Nav .NavLink:nth-of-type(2) {
     animation-delay: 0.1s;
   }
@@ -174,12 +165,10 @@
   .Nav .NavLink:nth-of-type(7) {
     animation-delay: 0.6s;
   }
-
   .Nav--GroupLinks {
     position: relative;
     text-align: center;
   }
-
   .Nav--GroupLinks .NavLink {
     font-size: 1.5rem;
     width: auto;
